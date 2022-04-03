@@ -1,0 +1,28 @@
+<h1>{{titulo}}</h1>
+<div class = "calculadora">
+  <p id = "pantalla">{{num}}</p>
+  <div class = "row">
+    <input type = "button" value="7" (click)="numero('7')"/>
+    <input type = "button" value="8" (click)="numero('8')"/>
+    <input type = "button" value="9" (click)="numero('9')"/>
+    <input type = "button" value="/" (click)="operacion('/')"/>
+  </div>
+  <div class="row">
+    <input type = "button" value="4" (click)="numero('4')"/>
+    <input type = "button" value="5" (click)="numero('5')"/>
+    <input type = "button" value="6" (click)="numero('6')"/>
+    <input type = "button" value="*" (click)="operacion('*')"/>
+  </div>
+  <div class="row">
+    <input type = "button" value="1" (click)="numero('1')"/>
+    <input type = "button" value="2" (click)="numero('2')"/>
+    <input type = "button" value="3" (click)="numero('3')"/>
+    <input type = "button" value="-" (click)="operacion('-')"/>
+  </div>
+  <div class="row">
+    <input type = "button" value="C" (click)="borrado()"/>
+    <input type = "button" value="0" (click)="numero('0')"/>
+    <input type = "button" value="=" (click)="igual()"/>
+    <input type = "button" value="+" (click)="operacion('+')"/>
+  </div>
+</div>

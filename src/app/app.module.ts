@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ContadorModule } from './contador/contador.module';
 import { PokemonModule } from './pokemon/pokemon.module';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BootstrapComponent
   ],
   imports: [
     BrowserModule,
